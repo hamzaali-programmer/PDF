@@ -1,0 +1,519 @@
+html {
+    overflow-x: hidden;
+}
+
+@media (min-width: 1177px) and (max-width: 1284px) {
+    .logo-div {
+        width: 15%;
+    }
+
+    .nav-div {
+        width: 66%;
+    }
+
+    .login-div {
+        width: 9%;
+    }
+
+    .signup-div {
+        width: 9%;
+    }
+
+    .burger-div {
+        width: 1%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1176px) {
+    .logo-div {
+        width: 15%;
+    }
+
+    .nav-div {
+        width: 66%;
+    }
+
+    .login-div {
+        width: 10%;
+    }
+
+    .signup-div {
+        width: 8%;
+    }
+
+    .burger-div {
+        width: 1%;
+    }
+
+    .login-div a {
+        padding: 0 5px;
+    }
+
+    .nav-div ul li a {
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav-div {
+        display: none;
+    }
+
+    .logo-div {
+        width: 70%;
+    }
+
+    .login-div {
+        width: 15%;
+    }
+
+    .signup-div {
+        width: 14%;
+    }
+
+    .burger-div {
+        width: 1%;
+    }
+    
+
+    /* login page */
+
+    .main-login{
+        overflow-x: hidden;
+    }
+    .login-img img{
+        height: 30px;
+        width: auto;
+    }
+    .login-first-heading{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 2%;
+    }
+    .facebook{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .Google{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .email{
+        width: 80%;
+        padding: 1.5% 1%;
+    }    
+    .password{
+        width: 80%;
+        padding: 1.5% 1%;
+    }
+    .pdf-heading{
+        font-size: 22px;
+        padding-top: 5%;
+    }
+    
+    .pdf-paragraph{
+        font-size: 16px;
+    }
+        
+
+    /* signup page */
+
+    .main-signup{
+        overflow-x: hidden;
+    }
+    .signup-img img{
+        height: 30px;
+        width: auto;
+    }
+    .signup-first-heading{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 2%;
+    }
+    .facebook{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .Google{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .email{
+        width: 80%;
+        padding: 1.5% 1%;
+    }    
+    .password{
+        width: 80%;
+        padding: 1.5% 1%;
+    }
+    .pdf-heading{
+        font-size: 22px;
+        padding-top: 5%;
+    }
+    
+    .pdf-paragraph{
+        font-size: 16px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .nav-div {
+        display: none;
+    }
+
+    .logo-div {
+        width: 65%;
+    }
+
+    .login-div {
+        width: 20%;
+    }
+
+    .signup-div {
+        width: 14%;
+    }
+
+    .burger-div {
+        width: 1%;
+    }
+
+
+    /* index page */
+
+
+    .first-div h1 {
+        font-size: 32px;
+        color: rgb(27, 26, 26);
+        padding-top: 3%;
+    }
+
+    .first-div h3 {
+        color: rgb(27, 26, 26);
+        font-size: 20px;
+        font-weight: 400;
+        padding: 1%;
+    }
+
+    .first-div p {
+        padding: 1%;
+        font-size: 15px;
+    }
+
+    .button-div button {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
+
+        
+
+    /* login page */
+
+    .main-login{
+        display: block;
+        overflow-x: hidden;
+    }
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .login-img img{
+        height: 35px;
+        width: auto;
+    }
+    .login-first-heading{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 2%;
+    }
+    .facebook{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .Google{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .email{
+        width: 60%;
+        padding: 1.5% 1%;
+    }    
+    .password{
+        width: 60%;
+        padding: 1.5% 1%;
+    }
+    .pdf-heading{
+        font-size: 22px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    .pdf-paragraph{
+        font-size: 16px;
+        text-align: center;
+        padding: 3% 9%;
+    }
+    .create-account{
+        padding-bottom: 5%;
+    }
+    .pdf-drop{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+        
+
+    /* signup page */
+
+    .main-signup{
+        display: block;
+        overflow-x: hidden;
+    }
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .signup-img img{
+        height: 35px;
+        width: auto;
+    }
+    .signup-first-heading{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 2%;
+    }
+    .facebook{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .Google{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .email{
+        width: 60%;
+        padding: 1.5% 1%;
+    }    
+    .password{
+        width: 60%;
+        padding: 1.5% 1%;
+    }
+    .pdf-heading{
+        font-size: 22px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    .pdf-paragraph{
+        font-size: 16px;
+        text-align: center;
+        padding: 3% 9%;
+    }
+    .create-account{
+        padding-bottom: 5%;
+    }
+    .pdf-drop{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+    .nav-div {
+        display: none;
+    }
+
+    .logo-div {
+        width: 49%;
+    }
+
+    .login-div {
+        width: 28%;
+    }
+
+    .signup-div {
+        width: 20%;
+    }
+
+    .burger-div {
+        width: 3%;
+    }
+
+
+    /* index page */
+
+
+    .first-div h1 {
+        font-size: 22px;
+        color: rgb(27, 26, 26);
+        padding-top: 3%;
+    }
+
+    .first-div h3 {
+        color: rgb(27, 26, 26);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 1%;
+    }
+
+    .first-div p {
+        padding: 1%;
+        font-size: 12px;
+    }
+
+    .button-div button {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 5px;
+        font-size: 16px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .second-div{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-div{
+        width: 100%;
+    }
+    .icon-div{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .icon-div a {
+        margin: 2%;
+    }
+
+
+        
+
+    /* login page */
+
+    .main-login{
+        display: block;
+        overflow-x: hidden;
+    }
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .login-img img{
+        height: 35px;
+        width: auto;
+    }
+    .login-first-heading{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 2%;
+    }
+    .facebook{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .Google{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .email{
+        width: 90%;
+        padding: 1.5% 1%;
+    }    
+    .password{
+        width: 90%;
+        padding: 1.5% 1%;
+    }
+    .pdf-heading{
+        font-size: 22px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    .pdf-paragraph{
+        font-size: 16px;
+        text-align: center;
+        padding: 3% 9%;
+    }
+    .create-account{
+        padding-bottom: 5%;
+    }
+    .pdf-drop{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+        
+
+    /* signup page */
+
+    .main-signup{
+        display: block;
+        overflow-x: hidden;
+    }
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .signup-img img{
+        height: 35px;
+        width: auto;
+    }
+    .signup-first-heading{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 2%;
+    }
+    .facebook{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .Google{
+        padding: 0.8% 2%;
+        font-size: 15px;  
+    }
+    .email{
+        width: 90%;
+        padding: 1.5% 1%;
+    }    
+    .password{
+        width: 90%;
+        padding: 1.5% 1%;
+    }
+    .pdf-heading{
+        font-size: 22px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    .pdf-paragraph{
+        font-size: 16px;
+        text-align: center;
+        padding: 3% 9%;
+    }
+    .create-account{
+        padding-bottom: 5%;
+    }
+    .pdf-drop{
+        display: flex;
+        justify-content: center;
+    }
+}
